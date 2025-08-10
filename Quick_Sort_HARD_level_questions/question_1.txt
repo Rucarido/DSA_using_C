@@ -1,0 +1,32 @@
+Problem Statement
+
+Maria is managing a scheduling system that records various time-points throughout the day. She needs to determine the shortest interval between any two recorded times. By converting the time-points into minutes and sorting them using QuickSort, she can efficiently calculate the minimum difference. Help Maria find the smallest interval between any two times in the list.
+
+Input format :
+
+The first line of input consists of an integer n, representing the number of time-points in the list.
+The next n lines each contain a string in the format "HH:MM", representing a time-point.
+
+Output format :
+
+The output prints "The time difference is: " followed by a single integer, representing the minimum minute difference between any two time points in the list.
+
+
+Refer to the sample output for formatting specifications.
+
+Code constraints :
+2 ≤ n ≤ 100
+
+Each time-point is in the format "HH:MM".
+
+=============================================================================================================================
+
+Sample Test Case:
+
+Input: 
+2 
+23:59
+00:00
+
+Output:
+The time difference is: 1
